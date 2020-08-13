@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="exercise3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise3">
+				<Option output="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/."/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/flt"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/int"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/ptr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/rec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/str"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/vert"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/itr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/rec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/itr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/bst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/lst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/itr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/list"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/lst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/vec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/lst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/vec"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise3/fast">
+				<Option output="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/."/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/flt"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/int"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/ptr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/rec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/str"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/vert"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/itr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/rec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/itr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/bst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/lst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/itr"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/list"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/lst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/vec"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/lst"/>
+					<Add directory="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/vec"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/adt.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/adt.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/flt/adtflt.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/flt/adtflt.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/int/adtint.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/int/adtint.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/ptr/adtptr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/ptr/adtptr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/rec/adtrec.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/rec/adtrec.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/str/adtstr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/str/adtstr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/vert/adtvert.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/adt/vert/adtvert.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bst.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bst.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrbreadth.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrbreadth.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrinord.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrinord.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrpostord.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrpostord.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrpreord.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/bstitrpreord.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/itr/bstitr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/itr/bstitr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/rec/bstrec.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/bst/rec/bstrec.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graph.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graph.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graphitrbreadth.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graphitrbreadth.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graphitrpostord.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graphitrpostord.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graphitrpreord.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/graphitrpreord.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/itr/graphitr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/itr/graphitr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rec/graphrec.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rec/graphrec.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/bst/bstitr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/bst/bstitr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/bst/graphbst.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/bst/graphbst.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/lst/graphlst.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/lst/graphlst.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat/edgitr .c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat/edgitr .h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat/graphmat.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat/graphmat.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat/matitr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/rep/mat/matitr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/vertitr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/graph/vertitr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/itr/itr.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/itr/itr.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/list/itrlist.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/list/itrlist.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/list/list.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/list/list.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/main.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/lst/queuelst.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/lst/queuelst.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/queue.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/queue.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/vec/queuevec.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/queue/vec/queuevec.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/lst/stacklst.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/lst/stacklst.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/stack.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/stack.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/vec/stackvec.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/stack/vec/stackvec.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/utility.c">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/utility.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/annaritadellarocca/Desktop/uni/librerie/exercise3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
